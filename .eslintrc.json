@@ -1,5 +1,6 @@
 {
   "env": {
+    "es6": true,
     "node": true
   },
   "extends": "eslint:all",
@@ -7,15 +8,14 @@
     "ecmaVersion": 6
   },
   "rules": {
-    "array-element-newline": [
-      "error",
-      {
-        "multiline": true
-      }
-    ],
+    "array-element-newline": "off",
     "callback-return": "off",
     "capitalized-comments": "off",
     "consistent-return": "off",
+    "dot-location": [
+      "error",
+      "property"
+    ],
     "indent": [
       "error",
       2
@@ -26,8 +26,14 @@
         "ignoreStrings": true
       }
     ],
+    "max-lines": "off",
     "max-params": "off",
+    "multiline-ternary": [
+      "error",
+      "always-multiline"
+    ],
     "newline-per-chained-call": "off",
+    "no-confusing-arrow": "off",
     "no-console": "off",
     "no-magic-numbers": "off",
     "no-process-env": "off",
@@ -39,6 +45,7 @@
         ]
       }
     ],
+    "no-ternary": "off",
     "no-unused-vars": [
       "error",
       {
