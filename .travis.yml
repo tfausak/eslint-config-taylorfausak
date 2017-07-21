@@ -1,0 +1,7 @@
+deploy:
+  provider: npm
+  email: taylor@fausak.me
+  api_key:
+    secure: Fhlynus9QWjdPKekyd3KtCienk9bLeVrdlA2eQ4yxc57fPyUZtg0WyvB8dAxJW3oKFStoOpyduJEV8ZcjfTXPEdBZ5SsJ5niI6oIm+My/MGtQu2bOJxVsTzZLjC+1scZW0qCN3Dl0qxI82B+Pn2PWyiet+r9SWJ2n63AcCamWPh6ycTOtj+QKjNPn+9P+sNlkxiz2PU06tCiktpGfmVjx5ns1+swzD8/Q9J5cAbR7iXANiINeHSY7dk32p3yD6ePB04E8UCnTBMBTuoPWDS/lfbmy1H3oO46ci7/oMCclhbA/vqZSarDczNCFdvYEF7a6g1gHWvlspNnHZwE8Ivxqb8MgKqhBVjf8rb2CuekOd56ggggZ1qW3UETGSmUbnvCAguwM2QUgNI8uLOgFSjhu1o0wOe8XBftCoHN1yK2Mb1uKftffMU7tSOsBg7Pju6q93fQc/SzYd2ua6H2n8YK22RLp0uMcSpndLGYfZ5hAT+yZ/6p+w+w6fxNs69WFFQcwthatBThwODqZ+bw0V2kjK1UmL5Gy1f+CRJHmxpWi0r0v/aLewKBn5NrJSd2cMnhKGT0Q11RbUnZGXl+SI9yWfdzyvrPSXndGZwD2qteB18llFIoXPIYod0KQ7/Fqz1Iybb1SqR8eW7SrT1I7i1/INiCbJyW5dZIDSppVQop+is=
+  on:
+    tags: true
