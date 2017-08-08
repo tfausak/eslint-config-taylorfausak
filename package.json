@@ -6,11 +6,11 @@
   "license": "MIT",
   "name": "eslint-config-taylorfausak",
   "peerDependencies": {
-    "eslint": "4.3.x"
+    "eslint": "4.4.x"
   },
   "repository": "tfausak/eslint-config-taylorfausak",
   "scripts": {
     "test": "eslint ."
   },
-  "version": "0.0.4"
+  "version": "0.0.5"
 }
