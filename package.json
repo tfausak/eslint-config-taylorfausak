@@ -1,16 +1,16 @@
 {
   "description": "Taylor Fausak's ESLint config.",
   "devDependencies": {
-    "eslint": "4.3.0"
+    "eslint": "^4.6.1"
   },
   "license": "MIT",
   "name": "eslint-config-taylorfausak",
   "peerDependencies": {
-    "eslint": "4.3.x"
+    "eslint": "^4.6.1"
   },
   "repository": "tfausak/eslint-config-taylorfausak",
   "scripts": {
     "test": "eslint ."
   },
-  "version": "0.0.4"
+  "version": "0.0.5"
 }
